@@ -1,2 +1,2 @@
-# flook.co.github.io
-flook.co 
+# BasicPortfolio
+Basic portfolio using html and css

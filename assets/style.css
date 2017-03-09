@@ -1,0 +1,126 @@
+
+body {
+	position: relative;
+	margin: auto;
+	padding: 0px 0px 0px 0px;
+	font-family: 'Quicksand', sans-serif;
+	max-width: 1200px;
+	height: 100%;
+}
+
+/*Header & nav styling */
+header {
+	margin: 20px 0px 0px 0px;
+	padding-top: 2%;
+}
+
+h1 {
+	padding: 2%;
+	background: #38364C;
+	color: white;
+	display: inline;
+	margin-right: 13%;
+	font-family: 'Rubik', sans-serif;
+	font-size: 30px;
+}
+
+nav {
+	display: inline;
+	margin-right: 20px;
+}
+
+nav a {
+	padding-left: 2%;
+	padding-right: 2%;
+	float: right;
+}
+
+#centerNavA {
+	border-left: 2px solid #38364C;
+	border-right: 2px solid #38364C;
+}
+
+
+
+
+/*header styles */ 
+
+h2{
+	font-family: 'Rubik', sans-serif;
+	font-size: 20px;
+	color: #38364C;
+	padding-bottom: 3%;
+	border-bottom: #e3bab3 solid 2px;
+	margin-bottom: 20px; 
+
+}
+
+
+/* Main body style */
+main {
+	position: relative;
+	background: #e9dccd;
+	background: linear-gradient(#e9dccd, #e3bab3);
+	padding: 3%;
+	overflow: auto;
+	margin: 0px;
+	border-top: 1px solid #38364C;
+}
+
+.contentBox {
+	max-width: 800px;
+	margin: auto;
+}
+
+/*About me style section */
+#aboutMe {
+	padding: 2%;
+	width: 45%;
+	background: #e9dccd;
+	border: 1px solid #38364C;
+	border-radius: 20px;
+	float: left;
+}
+
+#aboutPhoto {
+	max-height: 230px;
+	display: inline-block;
+	float: left;
+	padding-right: 25px;
+}
+
+
+
+/*Contact me section */
+#connectWithMe {
+	padding: 2%;
+	width: 35%;
+	background: #e9dccd;
+	border: 1px solid #38364C;
+	border-radius: 20px;
+	float: right;
+}
+
+#connectWithMe img {
+	max-width: 70px;
+	margin: auto;
+}
+
+#connectWithMe section {
+	padding: 20px 0px;
+	margin: auto;
+	text-align: center;
+}
+
+/*Footer */
+footer {
+	padding: 2%;
+	background: #38364C;
+	border-top: #849974 solid 5px;
+	text-align: center;
+	color: #fff;
+	position: relative;
+	right: 0;
+	bottom:0;
+	left: 0;
+}
