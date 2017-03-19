@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Basic B</title>
+	
+	<!-- Basic bootstrap css -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Delius+Swash+Caps|Pacifico|Rubik" rel="stylesheet">
+
+	<!-- personal stylesheet -->
+	<link rel="stylesheet" type="text/css" href="assets/style.css">
+
+</head>
+
+<body onload="loadFunction()">
+  	<main class="container">
+	    <div class="row heading">
+		   <h1>Basic B's Hangman</h1>
+		</div>
+		<div class="row introDiv">
+			<p class="col-md-12">Society may call you "basic" but your drink order surely isnt. Anticipate what the barista at your - local organic fair-trade transcendental - coffee house is thinking in order to get the most exclusive beverage possible. Mind reading not in your horoscope today? Thats tottalllyy ok... you'll just be getting a luke warm cup of yesterdays brew.  </p>
+		</div>
+		<div class="container">
+			<div class="row">
+				<!-- space and letter holder for guesses. # spaces = # letters -->
+				<section class="col-md-8 col-sm-12 leftSection">
+					<h2>To make a guess, type any alpha-character or a space. </h2>
+					<!-- <img src="assets/girlCoffee.jpeg" alt="woman drinking coffee" class="gameImg gameWinner">
+					<img src="assets/coffeeSpill.jpg" alt="coffee spill on work/class materials" class="gameImg gameLoser"> -->
+					<div id="hold"></div>
+			    </section>
+
+			    <aside class="col-md-4 col-sm-12 rightAside">
+					<!--     Writes number of lives left from js -->    
+					<h2 id="mylives"></h2>
+				    
+					<!-- Guesses box for correct and incorrect letters -->
+				    <div class="letterGuessed">
+				      <h2>You tried the following letters:</h2>
+				      <p id="userGuess"></p>
+				    </div>
+				    
+					<!-- Reset button... currently not working :/ -->
+				    <div class="container">
+				      <button onclick="resetButton()" type="button" class="btn btn-info" id="reset">Play again</button>
+				    </div>
+			    </aside>
+			</div>
+		</div>
+ 	</main>
+   <script src="hangman.js"></script>
+
+</body>
+</html>
