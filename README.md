@@ -1,2 +1,2 @@
-# BasicPortfolio
-Basic portfolio using html and css
+# JillianPortfolio
+Jillian's portfolio using a customized bootstrap template
