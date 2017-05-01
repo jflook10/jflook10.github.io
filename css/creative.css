@@ -223,8 +223,11 @@ header .header-content .header-content-inner p {
 .service-box p {
   margin-bottom: 0;
 }
+.skillsPic{
+  max-height: 90px;
+}
 .portfolio-box {
-  position: relative;
+  potextition: relative;
   display: block;
   max-width: 650px;
   margin: 0 auto;
