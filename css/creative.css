@@ -27,7 +27,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #45a1f1;
+  color: #4C8294;
 }
 h1,
 h2,
@@ -96,7 +96,7 @@ aside {
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
-  color: #45a1f1;
+  color: #4C8294;
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
@@ -118,7 +118,7 @@ aside {
   }
   .navbar-default .navbar-header .navbar-brand:hover,
   .navbar-default .navbar-header .navbar-brand:focus {
-    color: #45a1f1;
+    color: #4C8294;
   }
   .navbar-default .nav > li > a,
   .navbar-default .nav > li > a:focus {
@@ -126,7 +126,7 @@ aside {
   }
   .navbar-default .nav > li > a:hover,
   .navbar-default .nav > li > a:focus:hover {
-    color: #45a1f1;
+    color: #4C8294;
   }
   .navbar-default.affix {
     background-color: white;
@@ -146,9 +146,9 @@ aside {
   }
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
-    color: #45a1f1;
+    color: #4C8294;
   }
-}
+} /*end of navbar media*/
 header {
   position: relative;
   width: 100%;
@@ -229,7 +229,12 @@ header .header-content .header-content-inner p {
     margin-left: auto;
     margin-right: auto;
   }
+} /*end of header media query*/
+
+#profilePic {
+  max-height: 240px;
 }
+
 .section-heading {
   margin-top: 0;
 }
@@ -239,8 +244,12 @@ header .header-content .header-content-inner p {
 }
 @media (min-width: 992px) {
   .service-box {
-    margin: 20px auto 0;
+    margin: 20px auto 60px;
   }
+}
+
+#skills{
+  padding-bottom: 40px;
 }
 .service-box p {
   margin-bottom: 0;
@@ -248,6 +257,13 @@ header .header-content .header-content-inner p {
 .skillsPic{
   max-height: 90px;
 }
+@media(max-width: 375px){
+  .skillsPic{
+    max-height: 70px;
+  }
+}
+
+
 .portfolio-box {
   potextition: relative;
   display: block;
@@ -281,7 +297,6 @@ header .header-content .header-content-inner p {
   padding: 0 15px;
 }
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-  text-transform: uppercase;
   font-weight: 600;
   font-size: 14px;
 }
