@@ -32,8 +32,9 @@ header .header-content{
 
 @media (min-width: 768px) {
   .portfolioHeader{
-    min-height: 33%;
-  }
+    max-height: 54%;
+    height: 100%;
+}
   .portSection{
   	padding: 40px 6%;
   }
@@ -66,6 +67,11 @@ text-align: center;
 background-color: rgba(57, 102, 117, 0.32);
 }
 
+@media(max-width: 475px){
+	.portLi{
+		width: calc(100% / 3);
+	}
+}
 
 
 
