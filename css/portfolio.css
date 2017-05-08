@@ -1,0 +1,103 @@
+
+
+.whiteNav{
+	background-color: white;
+}
+
+.portSection{
+	padding: 40px 20px;
+}
+
+/* ---------------- nav ---------------- */
+
+
+
+/* ---------------- portfolio header -------------*/
+header{
+	background-color: #396675;
+	background-image: none;
+}
+
+.portfolioHeader{
+	background-color: rgba(57, 102, 117, 0.32);
+}
+
+header .header-content .header-content-inner{
+	background-color: initial;
+}
+
+header .header-content{
+	padding: 75px 15px 30px;
+}
+
+@media (min-width: 768px) {
+  .portfolioHeader{
+    min-height: 33%;
+  }
+  .portSection{
+  	padding: 40px 6%;
+  }
+}
+
+/*.ulContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 50%;
+  border: 1px solid #000;
+  margin: 1em 0;
+}*/
+.portUl {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+width: 100%;
+padding-left: 0;
+justify-content: center;
+}
+
+.portLi {
+list-style: none;
+display: inline-block;
+width: calc(100% / 6);
+padding: 6px;
+margin: 15px;
+text-align: center;
+background-color: rgba(57, 102, 117, 0.32);
+}
+
+
+
+
+
+/*  ----------- main ------------------ */
+
+.portfolioImg{
+	width: 100%;
+}
+
+.flexContainer{
+   display: -webkit-flex;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+}
+
+.portButton{
+	width: 200px;
+	height: 50px;
+	font-size: 16px;
+	font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+	background-color: #396675; 
+	color: white;
+	border-radius: 25px;
+	border: 1px solid #335b69;
+	padding: 10px 30px;
+	text-align: center;
+}
+.portButton:hover{
+	background-color: #337ab7;
+	border: 1px solid #2b699e;
+	color: white;
+}
