@@ -1,5 +1,5 @@
 
-
+/* ---------------- nav ---------------- */
 .whiteNav{
 	background-color: white;
 }
@@ -7,8 +7,6 @@
 .portSection{
 	padding: 40px 20px;
 }
-
-/* ---------------- nav ---------------- */
 
 
 
@@ -79,7 +77,8 @@ background-color: rgba(57, 102, 117, 0.32);
 /*  ----------- main ------------------ */
 
 .portfolioImg{
-	width: 100%;
+	width: 80%;
+	margin: auto;
 }
 
 .flexContainer{
@@ -106,4 +105,8 @@ background-color: rgba(57, 102, 117, 0.32);
 	background-color: #337ab7;
 	border: 1px solid #2b699e;
 	color: white;
+}
+
+video {
+	width: 60%;
 }
