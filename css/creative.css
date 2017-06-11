@@ -17,7 +17,7 @@ hr {
   max-width: 50px;
 }
 hr.light {
-  border-color: white;
+  border-color: rgba(255, 255, 255, 0);
 }
 a {
   -webkit-transition: all 0.35s;
@@ -150,7 +150,7 @@ aside {
   }
 } /*end of navbar media*/
 header {
-  position: relative;
+/*  position: relative;*/
   width: 100%;
   min-height: auto;
   -webkit-background-size: cover;
@@ -158,7 +158,6 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/header.jpeg');
   text-align: center;
   color: #396675;
 }
@@ -173,7 +172,7 @@ header .header-content .header-content-inner{
     margin-left: auto;
     margin-right: auto;
     background-color: rgba(255, 255, 255, 0.81);
-    border-radius: 12px;
+    border-radius: 4px;
     padding: 20px 10px;
 }
 
@@ -200,6 +199,7 @@ header .header-content .header-content-inner p {
   color: #396675;
   font-size: 16px;
 }
+
 @media (min-width: 768px) {
   #indexHeader {
     min-height: 100%;
@@ -253,6 +253,7 @@ header .header-content .header-content-inner p {
 
 #skills{
   padding-bottom: 40px;
+
 }
 .service-box p {
   margin-bottom: 0;
@@ -430,7 +431,7 @@ fieldset[disabled] .btn-primary.active {
 .btn {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   border: none;
-  border-radius: 300px;
+  border-radius: 4px;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -458,3 +459,50 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #222222;
 }
+
+/*------ Start Parallax -----*/
+.parallax{
+ background: url('../img/header.jpeg') repeat fixed 100%;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+
+}
+
+#skills.parallax{
+ background: url('../img/header.png') repeat fixed 100%;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 768px) {
+  .parallax{
+     background: url('../img/header.jpeg');
+     position: relative;
+        -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+
+  }
+  #skills.parallax{
+     background: url('../img/header.png');
+     position: relative;
+        -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+
+  }
+}
+
+
+/*------ End Parallax -----*/
+
