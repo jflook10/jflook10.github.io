@@ -20,12 +20,21 @@ header{
 	background-color: rgba(57, 102, 117, 0.32);
 }
 
-header .header-content .header-content-inner{
+header .header-subpage .header-content-inner{
 	background-color: initial;
 }
 
-header .header-content{
+header .header-subpage{
 	padding: 75px 15px 30px;
+}
+
+header .header-subpage{
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 0 50px;
 }
 
 @media (min-width: 768px) {
@@ -63,6 +72,16 @@ padding: 6px;
 margin: 15px;
 text-align: center;
 background-color: rgba(57, 102, 117, 0.32);
+}
+
+@media (max-width: 768px){
+  .portfolioHeader{
+    height: 450px;
+  }
+  header .header-subpage{
+    padding: 50px 15px 0px 15px;
+
+  }
 }
 
 @media(max-width: 475px){
